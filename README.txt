@@ -1,9 +1,12 @@
-id: 319051066
-name: najeeb ibraheem
-exercise name: tweets generator
+tweets generator
 
-submitted files
-tweetsGenerator.c
+tweetsGenerator.c - file that generates a requested number of tweets by constructing word list according to probabilities read from a certain number of words from the given file
 
-This program receives a path to a file, reads the file and stores all the unique words into a dctionary.
-The program generates random tweets from the dictionary, it pick a random word and the next words are picked randomly depending on the probability that way we generate a full sentence.
+to compile using c enter command gcc tweetsGenerator.c -o tweetsGenerator
+
+then when running it type ./tweetsGenerator S T "filepath" W
+
+S representing the random seed 
+T representing the number of requested tweets 
+filepath representing the text file path to read from
+W representing words to read from file --optional
