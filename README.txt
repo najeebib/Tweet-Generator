@@ -10,3 +10,6 @@ S representing the random seed
 T representing the number of requested tweets 
 filepath representing the text file path to read from
 W representing words to read from file --optional
+
+This program reads a text file given as input and stors all the texts in structs.
+The program will try to construct sentences using the words in the file by predicting which words will be next after the previous word.
