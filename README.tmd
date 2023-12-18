@@ -1,4 +1,4 @@
-tweets generator
+# tweets generator
 
 tweetsGenerator.c - file that generates a requested number of tweets by constructing word list according to probabilities read from a certain number of words from the given file
 
